@@ -67,7 +67,7 @@ const ProductForm = () => {
       >
         {({ errors, touched }) => (
           <Form>
-          <div class="mb-3">
+          <div class="mb-3"> 
             <label for="name" class="form-label">Name:</label>
             <Field type="text" class="form-control" id="name" name="name" />
             <ErrorMessage name="name" class="invalid-feedback" />
